@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-A Markdown script that uses Args strings to display STDERR
+A Markdown script that uses Args strings to display STDERR.
 """
 import sys
 import os.path
