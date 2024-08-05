@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta charset="UTF-8" />
     <title>Homepage - A fake website</title>
     <!-- <style>
@@ -15,11 +12,12 @@
     </style> -->
   </head>
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <div class="header">
       <div>
         <div>
           <div>
-            <a href="#"><img src="img/logo.png" /></a>
+            <a href="#"><img src="img/logo.png" alt="Company Logo" /></a>
           </div>
           <div class="nav">
             <div>
@@ -35,20 +33,22 @@
         </div>
       </div>
     </div>
-    <div class="section">
+    <div id="main-content" class="section">
       <div class="container">
         <div class="row">
           <div class="col-6">
             <h6>This is me</h6>
             <h1>Philip Gilbert</h1>
             <div>
-              You will begin to realise why this exercise is called the Dickens
+              You will begin to realize why this exercise is called the Dickens
               Pattern with reference to the ghost showing Scrooge some different
               futures.
             </div>
-            <a class="primary-btn" href="#">discover now</a>
+            <a class="primary-btn" href="#">Discover now</a>
           </div>
-          <div class="col-6"><img class="img-fluid" src="hero-img.png" /></div>
+          <div class="col-6">
+            <img class="img-fluid" src="hero-img.png" alt="Hero image" />
+          </div>
         </div>
       </div>
     </div>
@@ -63,7 +63,7 @@
             <h1>Personal Details</h1>
             <p>
               Here, I focus on a range of items and features that we use in life
-              without giving them a second thought. such as Coca Cola. Dolor sit
+              without giving them a second thought. Such as Coca Cola. Dolor sit
               amet, consectetur adipisicing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam, quis nostrud exercitation ullamco.
@@ -120,7 +120,7 @@
             <p>Happy Clients</p>
           </div>
         </div>
-[O      </div>
+      </div>
     </div>
     <div class="section">
       <div class="container">
@@ -139,7 +139,7 @@
           <div class="active-testimonial">
             <div class="single-testimonial item d-flex flex-row">
               <div class="thumb">
-                <img class="img-fluid" src="image-01.png" alt="" />
+                <img class="img-fluid" src="image-01.png" alt="Testimonial image" />
               </div>
               <div class="desc">
                 <p>
@@ -177,9 +177,9 @@
             </div>
             <div class="package-list">
               <div>
-                <span>Secure Online Transfer</span
-                ><span>Unlimited Styles for interface</span
-                ><span>Reliable Customer Service</span>
+                <span>Secure Online Transfer</span>
+                <span>Unlimited Styles for interface</span>
+                <span>Reliable Customer Service</span>
               </div>
             </div>
             <div class="bottom-part">
@@ -196,10 +196,10 @@
           <div class="col-5">
             <div>
               <h4>About Me</h4>
-              <span
-                >We have tested a number of registry fix and clean utilities and
-                present our top 3 list on our site for your convenience.</span
-              >
+              <span>
+                We have tested a number of registry fix and clean utilities and
+                present our top 3 list on our site for your convenience.
+              </span>
             </div>
           </div>
           <div class="col-5">
@@ -210,12 +210,12 @@
                 <div class="input-group">
                   <input
                     class="form-control"
-                    type="text"
+                    type="email"
                     name="email"
                     placeholder="Enter Email Address"
                   />
                   <div class="input-group-btn">
-                    <a class="btn" type="submit">Validate</a>
+                    <button class="btn" type="submit">Subscribe</button>
                   </div>
                 </div>
               </form>
@@ -226,8 +226,8 @@
               <h4>Follow Me</h4>
               <p>Let us be social</p>
               <div>
-                <a href="#"><i class="facebook-icon"></i></a
-                ><a href="#"><i class="twitter-icon"></i></a>
+                <a href="#"><i class="facebook-icon" aria-label="Facebook"></i></a>
+                <a href="#"><i class="twitter-icon" aria-label="Twitter"></i></a>
               </div>
             </div>
           </div>
