@@ -1,0 +1,35 @@
+/* A common style for the list items */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* The icon span style */
+.icon {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url('0-sprite.png') no-repeat;
+  margin-left: 10px;
+}
+
+/* Specific styles for each icon */
+.i-html {
+  background-position: 0 0;
+}
+
+.i-css {
+  background-position: -100px 0;
+}
+
+.i-js {
+  background-position: -200px 0;
+}
